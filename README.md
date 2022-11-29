@@ -1,4 +1,6 @@
-# React-Next Boilerplate
+# react-next-tailwind-boilerplate
+
+A Boilerplate for React that uses Next.js, Tailwindcss, TypeScript and Recoil
 
 uses:
 
