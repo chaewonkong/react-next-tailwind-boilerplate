@@ -1,3 +1,11 @@
+import { useEffect } from "react";
+import { setTheme } from "../styles/theme";
+
 export default function Home() {
-  return <div className="text-blue-100 font-bold">next.js boilerplate</div>;
+  useEffect(() => {
+    setTheme("dark");
+  }, []);
+  return (
+    <div className="font-bold text-primary bg-primary">next.js boilerplate</div>
+  );
 }

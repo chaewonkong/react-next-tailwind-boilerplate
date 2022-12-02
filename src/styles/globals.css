@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: 255, 255, 255;
+    --bg-secondary: 245, 246, 247;
+    --bg-tertiary: 238, 238, 238;
+
+    --text-primary: 0, 0, 0;
+    --text-secondary: 56, 63, 74;
+    --text-tertiary: 255, 255, 255;
+  }
+
+  .dark {
+    --bg-primary: 0, 0, 0;
+    --bg-secondary: 25, 25, 25;
+    --bg-tertiary: 80, 80, 80;
+
+    --text-primary: 255, 255, 255;
+    --text-secondary: 199, 192, 181;
+    --text-tertiary: 84, 84, 84;
+  }
+}
